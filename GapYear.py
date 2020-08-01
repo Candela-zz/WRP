@@ -10,9 +10,9 @@ def search(word):
     webbrowser.open('https://www.google.com/')
 
     time.sleep(4)
-
     pyautogui.moveTo(600,510,2)
     pyautogui.doubleClick()
+    
     time.sleep(2)
     pyautogui.write(word)
     #####pyautogui.hotkey('ctrl','v')#####ใช้สำหรับภาษาอื่นๆ
@@ -26,11 +26,6 @@ def search(word):
 
     pyautogui.press('backspace')
     
-'''
-country=['Brazil','Argentina','Russia','Italy']
-for u in country:
-    print(u)
-'''
 search('Thailand')
 search('Russia')
 
