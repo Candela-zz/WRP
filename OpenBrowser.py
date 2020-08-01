@@ -3,7 +3,7 @@ import time
 import webbrowser
 import pyperclip
 
-pyperclip.copy('ลงุวิศวกร สอนคำนวณ')
+#####pyperclip.copy('ลงุวิศวกร สอนคำนวณ')
 #####ก็อปปี้ค่าไปไว้ในclipboard เเต่ paste ไม่ได้เอาค่าไปวางในsearch engine เลยpaste ไม่ได้
 
 def search(word):
@@ -14,8 +14,8 @@ def search(word):
     pyautogui.moveTo(600,510,2)
     pyautogui.doubleClick()
     time.sleep(2)
-    #####pyautogui.write(word)
-    pyautogui.hotkey('ctrl','v')#####ใช้สำหรับภาษาอื่นๆ
+    pyautogui.write(word)
+    #####pyautogui.hotkey('ctrl','v')#####ใช้สำหรับภาษาอื่นๆ
     pyautogui.press('enter')
     
     time.sleep(3)
@@ -30,10 +30,10 @@ def search(word):
 country=['Brazil','Argentina','Russia','Italy']
 for u in country:
     print(u)
-
+'''
 search('Thailand')
 search('Russia')
-'''
+
 
 
 
