@@ -17,7 +17,7 @@ def calc():
 
 ###For attach picture
 '''
-IMG=PhotoImage(file='Pytagorus.png')
+IMG=PhotoImage(file='Pytagorus.jpg')
 IM1=Label(GUI,image=IMG)
 IM1.pack()
 '''
