@@ -14,7 +14,7 @@ def calc():
 	print(f'Basal length is {base}')
 	length= math.isqrt((height*height)+(base*base))
 	print('Lenght is {:.2f}'.format(length))
-
+	
 ###For attach picture
 '''
 IMG=PhotoImage(file='pythagorus-theorem.png').subsample(3)
